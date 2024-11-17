@@ -1,0 +1,39 @@
+body {
+  /* background: #ff0000; */
+  height: 2000px;
+}
+main {
+  flex-direction: row-reverse;
+}
+nav {
+  border: 1px solid black;
+  /* background: #ffd700; */
+  height: 100px;
+  width: 1515px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.nav_logo_frame {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  margin-left: 5px;
+  align-content: center;
+  align-self: center;
+}
+.nav_bar_frame {
+  height: 50px;
+  width: 400px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.link_frame {
+  border: 1px solid black;
+}
+.button_frame {
+  display: flex;
+}
