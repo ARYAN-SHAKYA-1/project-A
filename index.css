@@ -9,7 +9,7 @@ nav {
   border: 1px solid black;
   /* background: #ffd700; */
   height: 100px;
-  width: 1515px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   position: fixed;
