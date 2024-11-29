@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    verify = () => {
+      if (document.getElementById("name1").value == "") {
+        alert("Enter your name");
+      }
+      if (documet.getElementById("mail1") == "") {
+        alert("enter your email");
+      } else {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (emailRegex.test(email)) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+    };
+  </script>
+  <body>
+    <main>
+      <header>
+        <nav></nav>
+      </header>
+      <section>
+        <form method="get">
+          <div class="name_box">
+            <span class="signup_text">Enter Your Name</span>
+            <input type="text" name="name" id="name1" class="name" />
+          </div>
+          <div class="email_box">
+            <span class="signup_text">Enter Your Email_address</span>
+            <input type="email" name="Email" id="mail1" class="mail" />
+          </div>
+          <div class="password_box">
+            <span class="signup_text">Make a Stong Password</span>
+            <input
+              type="password"
+              name="password"
+              id="password1"
+              class="password"
+            />
+          </div>
+          <div class="submit">
+            <input type="submit" value="Sign Up" onclick="verify()" />
+          </div>
+        </form>
+      </section>
+      <footer></footer>
+    </main>
+  </body>
+</html>
