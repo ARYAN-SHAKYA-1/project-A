@@ -3,7 +3,9 @@ body {
   height: 2000px;
 }
 main {
-  flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row;
+  /* align-items: last baseline; */
 }
 nav {
   border: 1px solid black;
@@ -26,14 +28,25 @@ nav {
 .nav_bar_frame {
   height: 50px;
   width: 400px;
-  border: 1px solid black;
+  padding: 15px;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.link_frame {
-  border: 1px solid black;
+.link {
+  text-decoration: none;
+}
+.link_text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  color: black;
 }
 .button_frame {
   display: flex;
+}
+.footer {
+}
+.marquee {
+  align-items: baseline;
 }
