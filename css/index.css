@@ -39,7 +39,17 @@ nav {
   color: white;
 }
 .button_frame {
+  height: 50px;
+  width: 250px;
+  padding: 15px;
+  /* border: 1px solid black; */
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btn {
+  background-color: black;
+  border: 0px;
 }
 section {
   background-color: red;
