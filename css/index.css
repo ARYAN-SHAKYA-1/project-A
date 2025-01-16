@@ -9,7 +9,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* position: fixed; */
+  position: relative;
 }
 .nav_logo_frame {
   border: 1px solid black;
