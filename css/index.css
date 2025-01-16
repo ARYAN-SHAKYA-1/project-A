@@ -41,7 +41,7 @@ nav {
 .button_frame {
   display: flex;
 }
-.section {
+section {
   background-color: red;
   height: 1500px;
 }
