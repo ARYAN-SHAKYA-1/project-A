@@ -2,11 +2,6 @@ body {
   /* background: #ff0000; */
   height: 2000px;
 }
-main {
-  display: flex;
-  flex-direction: row;
-  /* align-items: last baseline; */
-}
 nav {
   border: 1px solid black;
   /* background: #ffd700; */
