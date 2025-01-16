@@ -51,10 +51,7 @@ nav {
   background-color: black;
   border: 0px;
 }
-section {
-  background-color: red;
-  height: 1500px;
-}
+
 .marquee {
   align-items: baseline;
 }
