@@ -1,4 +1,27 @@
 section {
-  background-image: url();
-  height: 1500px;
+  background-image: url("homepage.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 737px;
+}
+.index_section {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.section_text_area {
+  height: 200px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.section_text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.st1 {
+  font-size: 55px;
+}
+.st2 {
+  font-size: 30px;
 }

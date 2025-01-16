@@ -21,11 +21,16 @@ nav {
   align-content: center;
   align-self: center;
 }
+.logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+}
 .nav_bar_frame {
   height: 50px;
   width: 400px;
   padding: 15px;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -42,7 +47,7 @@ nav {
   height: 50px;
   width: 250px;
   padding: 15px;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
