@@ -9,19 +9,18 @@ section {
 .index_section {
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .section_text_area {
   height: 200px;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 38px;
 }
 .section_text {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .st1 {
-  font-size: 55px;
+  font-size: 155px;
 }
 .st2 {
-  font-size: 30px;
+  font-size: 75px;
 }
