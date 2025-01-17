@@ -3,16 +3,24 @@
   border: 2px solid black;
   height: auto + 5px;
   padding: 20px;
-  background-color: aliceblue;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 .section_box {
-  background-color: chocolate;
   height: 600px;
   width: 550px;
   margin: 20px;
   padding: 20px;
-  overflow: scroll;
+  border: 5px groove blue;
+}
+#section_box_2 {
+  overflow-y: scroll;
+}
+.section_box_inner {
+  background-color: honeydew;
+  height: 45%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
